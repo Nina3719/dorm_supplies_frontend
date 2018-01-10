@@ -1,0 +1,20 @@
+extends template
+
+block content
+    h1 Change User Information
+    form
+        h2 Update Your Information
+        h3 Insert Email To Confirm Your Identity
+        input(type='email' name='email' placeholder='Email') 
+        br
+        br
+        button(type='button' onclick='email()') Confrim
+        
+        h3 Input Values in Field You Want to Update
+        input(type='text' name='name' placeholder='Name') 
+        br
+        input(type='password' name='password' placeholder='Password') 
+        br
+        input(type='number' name='classYear' placeholder='Class year') 
+        br
+        button(type ='button' onclick='update()') Update

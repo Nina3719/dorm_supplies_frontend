@@ -1,0 +1,14 @@
+extends template
+
+block content
+    h1 Order Dorm Supplies!
+    form
+        h2 Login to Dorm Supplies
+        input(type='email' name='email' id = 'email' placeholder='Email') 
+        br
+        input(type='number' name='classYear' id = 'classYear' placeholder='Class year') 
+        br
+        button(type ='button' formaction = 'homepage.pug') Login
+
+block postScript
+    script submitOnEnterKey(submitForm);

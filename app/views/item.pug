@@ -1,0 +1,15 @@
+extends template
+
+block content
+    h1 Sell Items on Dorm Supplies!
+    form
+        h2 Add Items to Sell
+        input(type='text' name='name' placeholder='Name') 
+        br
+        input(type='number' name='price' step='0.01' min='0' placeholder='Price') 
+        br
+        input(type='number' name='quantity' placeholder='Quantity') 
+        br
+        input(type='text' name='description' placeholder='Description') 
+        br
+        button(type ='button' onclick='addItem()') Add

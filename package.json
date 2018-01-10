@@ -1,0 +1,38 @@
+{
+  "name": "dorm_supplies_frontend",
+  "version": "1.0.0",
+  "description": "frontend",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && grunt publish",
+    "dev": "grunt & nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nina3719/dorm_supplies_frontend.git"
+  },
+  "author": "Nina Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nina3719/dorm_supplies_frontend/issues"
+  },
+  "homepage": "https://github.com/Nina3719/dorm_supplies_frontend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
